@@ -40,9 +40,8 @@ I expect that you start the course with a solid grasp of programming.
 
 The course will consist primarily of lecture and discussion, with occasional in-class lab activities.
 
-Two in-class midterm exams will be given. A scheduled final exam will be given; see the [Final Exam Schedule](https://www.ycp.edu/academics/final-exam-schedules/).
+Two in-class midterm exams will be given. A scheduled final exam will be given.
 
-In-class quizzes may be given. Missed quizzes may not be made up.
 
 Learning Outcomes
 -----------------
@@ -78,7 +77,7 @@ Your overall grade for the course will be determined as follows:
 -   Homework and programming assignments: 30%
 -   Midterm exams: 40% (20% each)
 -   Final exam: 20%
--   Quizzes, labs, attendance/participation: 10%
+-   Labs, attendance/participation: 10%
 
 ### Course website
 
