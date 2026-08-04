@@ -3,11 +3,11 @@ layout: default
 title: "Home page"
 ---
 
-# Welcome to CS 340, Fall 2018!
+# Welcome to CS 340, Fall 2026!
 
 <div id="subtitle">Programming Language Design</div>
 
-This is the website for CS 340, Fall 2018 at York College.  All information about the course will be posted here.
+This is the website for CS 340, Fall 2026 at York College.  All information about the course will be posted here.
 
 ## Links
 
@@ -19,6 +19,9 @@ This is the website for CS 340, Fall 2018 at York College.  All information abou
 * [Practice Exams](practice/index.html)
 
 ## News
+
+* **Aug 25** &mdash; Welcome back!
+<!--
 
 * **Dec 11** &mdash; If you have completed the extra credit option for [Assignment 7](assign/assign07.html) and you would like receive credit for it, send me an email today stating that (1) you did not discuss the extra credit with anyone, and (2) you did not give or receive any help concerning the extra credit.
 * **Dec 4** &mdash; Final exam times are:
@@ -35,4 +38,4 @@ This is the website for CS 340, Fall 2018 at York College.  All information abou
 * **Oct 3** &mdash; [Lecture 11](lectures/lecture11.html) and [Lab 9](labs/lab09.html) have been posted.  Also, [Assignment 4](assign/assign04.html) has been updated.
 * **Sep 28** &mdash; A preliminary but reasonably complete [Assignment 4](assign/assign04.html) is posted, tentatively due on Friday, Oct 12th.  Also, [Lecture 10](lectures/lecture10.html) has been posted, and the [Schedule](schedule.html) has been updated.
 * **Sep 11** &mdash; [Assignment 3](assign/assign03.html) is due on Tuesday, Sept 25th. Also note: I have updated my office hours in the [syllabus](syllabus.html).
-* **Aug 29** &mdash; Welcome back!  [Assignment 1](assign/assign01.html) is due Friday, Sept 7th by 11:59 PM, and [Assignment 2](assign/assign02.html) is due Monday, Sept 17th by 11:59 PM.
+-->
