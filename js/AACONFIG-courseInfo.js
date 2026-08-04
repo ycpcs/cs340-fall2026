@@ -10,7 +10,7 @@ var courseInfo = {
 
 	// The following is true if final exam is on the LAST day of class;
 	// false if final exam is during exam week.
-	inClassFinalExam: true,
+	inClassFinalExam: false,
 };
 
 // Final exam days and class periods are added in AACONFIG-scheduleInfo.js
