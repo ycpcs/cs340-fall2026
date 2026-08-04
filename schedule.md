@@ -9,7 +9,11 @@ This page lists the schedule for the course.  Note that there may be minor chang
 
 **Important**: Do the readings in advance!  Note that the reading includes both the lecture notes (the **Topic** column) and, if specified, the textbook reading (the **Reading** column.)
 
-<script>autogenCalendar({ omitLabs: true, omitFinalExams: true });</script>
+<script>
+	console.log("Generating calendar!");
+	autogenCalendar({ omitLabs: true, omitFinalExams: false });
+	console.log("Done generating calendar!");
+</script>
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
