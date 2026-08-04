@@ -6,20 +6,15 @@ title: "Syllabus"
 CS 340 - Programming Language Design
 ====================================
 
-**Fall 2018**
+**Fall 2026**
 
-Staff:
+Instructor: 
+- Dr. Dian Chen, <dchen3@ycp.edu>, Office KEC 110
 
-> Instructor | Email | Office hours (KEC 101)
-> ---------- | ----- | ----------------------
-> [David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | MWF 11 AM&ndash;12 PM, T 2&ndash;3, Th 1 PM&ndash;2 PM
+> Section | Days | Classroom | Office hours
+> ---------- | ---------- | ------------ | ------------
+> 101 (8:00 AM - 9:15 AM) | Tue/Thu | KEC 119 | M X, T X,..., or by appointment
 
-Meeting times:
-
-> Section | Location | Times
-> ------- | -------- | -----
-> 101 | KEC 119 | T/Th 9:30-10:45
-> 102 | KEC 119 | T/Th 11:00-12:15
 
 Course Description
 ------------------
@@ -56,7 +51,7 @@ By the end of this course, you will be able to:
 
 1.   Use finite automata and regular expressions to define regular languages
 2.   Use regular languages to define the lexical structure of programming languages
-3.   Use context-free grammars context-free languages
+3.   Use context-free grammars and context-free languages
 4.   Use context-free languages to define programming language grammars
 5.   Understand the essential semantic structures of programming languages (values, types, storage, control flow, etc.)
 6.   Write nontrivial programs in "nontraditional" languages such as functional languages, logic programming languages, and prototype-based languages
@@ -87,7 +82,7 @@ Your overall grade for the course will be determined as follows:
 
 ### Course website
 
-Please check the course web page, <https://ycpcs.github.io/cs340-fall2018/>, regularly for important announcements.
+Please check the course web page, <https://ycpcs.github.io/cs340-fall2026/>, regularly for important announcements.
 
 ### Reading Assignments
 
@@ -99,7 +94,7 @@ You **must** make a legitimate attempt to complete every homework assignment. I 
 
 ### Posting and submission of assignments and labs
 
-Assignments and labs will be posted on the course web page, <https://ycpcs.github.io/cs340-fall2018/>.
+Assignments and labs will be posted on the course web page, <https://ycpcs.github.io/cs340-fall2026/>.
 
 Assignments will be submitted using the server <https://cs.ycp.edu/marmoset>. You will receive an email containing the username and password you should use for this server.
 
@@ -119,7 +114,7 @@ Any violation of the course's academic integrity policy will be referred to the 
 
 In order to receive credit for completing a lab, you need to get a sign-off from your instructor *in person*.  There are two options for this:
 
-1. For 100% of full credit: Get a sign-off by the end of the *next* class (i.e., the class that follows the one in which we work on the lab in class.)
+1. For 100% of full credit: Get a sign-off by the end of the *next* class (i.e., the class that follows the one in which we work on the lab in class)
 2. For 80% of full credit: Get a sign-off sometime before the next exam.
 
 I *strongly* recommend that you work on the labs before you come to class, so that when you come to class, you have made a good start on it and are ready to ask questions about it.
@@ -136,7 +131,7 @@ No make-up exams will be given without approval of the instructor prior to class
 
 I expect you to attend class and participate regularly in class activities. If you miss a class, please notify me in advance. You are responsible for all material covered in class, regardless of whether or not you were present. If you attend and participate in class regularly, you can expect to receive full credit for attendance and participation. Frequent absence and/or lack of participation will reduce the credit you receive for attendance and participation. You are responsible for keeping up with the reading assignments as described in the course schedule.
 
-### Disability accomodation
+### Disability accommodation
 
 If you had an IEP or 504 plan in high school or if you have a disability or health condition that impacts you in the classroom, please contact Linda Miller, Director of Disability Support Services, at 815-1785 or <lmille18@ycp.edu> to discuss obtaining the accommodations for which you may be eligible. If you already have an accommodation memo and wish to access your accommodations in this class, please see me confidentially to discuss.
 
