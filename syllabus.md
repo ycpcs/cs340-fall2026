@@ -130,9 +130,9 @@ No make-up exams will be given without approval of the instructor prior to class
 
 I expect you to attend class and participate regularly in class activities. If you miss a class, please notify me in advance. You are responsible for all material covered in class, regardless of whether or not you were present. If you attend and participate in class regularly, you can expect to receive full credit for attendance and participation. Frequent absence and/or lack of participation will reduce the credit you receive for attendance and participation. You are responsible for keeping up with the reading assignments as described in the course schedule.
 
-### Disability accommodation
+### Student Accessibility Services
 
-If you had an IEP or 504 plan in high school or if you have a disability or health condition that impacts you in the classroom, please contact Linda Miller, Director of Disability Support Services, at 815-1785 or <lmille18@ycp.edu> to discuss obtaining the accommodations for which you may be eligible. If you already have an accommodation memo and wish to access your accommodations in this class, please see me confidentially to discuss.
+In accordance with the provisions of Section 504 of the Rehabilitation Act of 1973, and the Americans with Disabilities Act of 1990, York College and its faculty are obliged to make reasonable classroom and physical accommodations for students with disabilities.  If you are a student with a disability in need of classroom accommodations and have not already registered with Student Accessibility Services, please see the [SAS webpage](https://www.ycp.edu/about-us/offices-and-departments/student-success/student-accessibility-services/) for more information and to complete the online form to apply for accommodations. You may also contact <sas@ycp.edu> to establish the accommodations for which you are eligible.
 
 ### Use of Personal Technology in the Classroom
 
