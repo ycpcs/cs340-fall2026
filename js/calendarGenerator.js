@@ -141,15 +141,50 @@ function getTopicString(topic) {
     } else if (topic instanceof VacationDays) {
         str = "<strong>NO CLASS - " + topic.description + "</strong>";
     } else if (topic instanceof FinalExamDay) {
-        str = "<strong>FINAL EXAM for Section " + topic.section + " @ " + getStandardTimeString(topic.date) + "</strong>";
+        str = "<strong>OPTIONAL FINAL EXAM for Section " + topic.section + " @ " + getStandardTimeString(topic.date) + "</strong>";
+    }
+    return str;
+}
+
+function getCCProblemString(topic) {
+    var str = "";
+    if (topic instanceof Topic || topic instanceof DoubleTopic || topic instanceof TripleTopic) {
+    	str = topic.ccTitle + "&rarr;";
+    	if (topic.ccProbs.length == 0) {
+    		str = "&mdash;";
+    	} else {
+    		for (var i = 0; i < topic.ccProbs.length; i++) {
+    			var prob = topic.ccProbs[i];
+    			if (prob.substring(prob.length-1) == '*') {
+    				str += linkify(prob.substring(0,prob.length-1),topic.ccLinks[i]) + "*, ";
+    			} else if (prob.substring(prob.length-1) == '@') {
+    				str += linkify(prob.substring(0,prob.length-1),topic.ccLinks[i]) + '<img src="//ycpcs.github.io/cs101-fall2023/img/goldstar-tiny.png" alt="gold star">, ';
+    			} else {
+    				str += linkify(prob,topic.ccLinks[i]) + ", ";
+    			}
+    		}
+    	}
     }
     return str;
 }
 
 
-
 function getReadingString(reading) {
-    return (reading !== undefined) ? reading : "";
+    //return (reading !== undefined) ? reading : "";
+    if (reading !== undefined) {
+        if (reading instanceof LinkedReading) {
+            // LinkedReading is useful for when the reading is a paper
+            if (reading.author) {
+                return reading.author + ", <a href=\"" + reading.link + "\">" + reading.title + "</a>";
+            } else {
+                return "<a href=\"" + reading.link + "\">" + reading.title + "</a>";
+            }
+        } else {
+            return reading;
+        }
+    } else {
+        return "";
+    }
 }
 
 
@@ -157,7 +192,12 @@ function getReadingString(reading) {
 function isLab(lab) {
     return (lab instanceof Lab)
         || (lab instanceof NumberedLab)
-        || (lab instanceof NumberedLabNoFile);
+        || (lab instanceof NumberedLabNoFile)
+        || (lab instanceof NumberedLabGradle)
+        || (lab instanceof DoubleNumberedLab)
+        || (lab instanceof DoubleNumberedLabGradle)
+        || (lab instanceof DoubleNumberedLabGradleNoFile)
+        || (lab instanceof TripleNumberedLab);
 }
 
 
@@ -168,7 +208,33 @@ function getLabString(lab, assignOnDate) {
     var today = new Date();
 
     if (isLab(lab) && (assignOnDate.getTime() < today.getTime() || PREPOPULATE)) {
-        str = linkify(lab.title, lab.link);
+    	if (lab instanceof Lab) {
+    		str = lab.title1;
+    	}else if (lab instanceof NumberedLabNoFile) {
+    		str = linkify(lab.title1, lab.link1);
+    	} else if (lab instanceof NumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+    	} else if (lab instanceof NumberedLabGradle) {
+        	str = linkify(lab.title1, lab.link1);
+    	} else if (lab instanceof DoubleNumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+        } else if (lab instanceof DoubleNumberedLabGradle) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+    	} else if (lab instanceof DoubleNumberedLabGradleNoFile) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+    	} else if (lab instanceof TripleNumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+        	str += "<br>";
+        	str += linkify(lab.title3, lab.link3);
+    	}
     }
     return str;
 }
@@ -208,11 +274,9 @@ function printCalendar(opts) {
     var regularSemesterDays = getRegularSemesterDays();
 
     document.write("<table>");
+//    document.write("<thead><tr><th>Date</th><th>Topic</th><th>CloudCoder exercises</th>");
     document.write("<thead><tr><th>Date</th><th>Topic</th>");
-    if (!opts.omitReadings) { document.write("<th>Reading</th>"); }
-    if (!opts.omitLabs) { document.write("<th>Lab</th></tr>"); }
     document.write("</thead>");
-        //document.write("<tbody>");
 
     // Number of items to print
     var numItems = calendar.length;
@@ -233,9 +297,7 @@ function printCalendar(opts) {
         document.write("<tr>");
         document.write("<td>" + getDateString(calendar[i].date) + "</td>");
         document.write("<td>" + getTopicString(calendar[i].topic) + "</td>");
-        document.write("<td>" + getReadingString(calendar[i].reading) + "</td>");
-        if (!opts.omitLabs) { document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>"); }
-        document.write("<td>" + getAssignmentString(calendar[i].assign, calendar[i].date) + "</td>");
+        //document.write("<td>" + getCCProblemString(calendar[i].topic) + "</td>");
         document.write("</tr>");
     }
         //document.write("</tbody>");
@@ -263,7 +325,23 @@ function printLabs(opts) {
             document.write("<td></td>");
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
-            document.write("<td>" + getFileString(calendar[i].lab.file) + "</td>");
+            document.write("<td>");
+            if (!calendar[i].lab.file1) {
+            	document.write("n/a");
+            }
+            if (calendar[i].lab.file1) {
+            	document.write(getFileString(calendar[i].lab.file1));
+            } 
+            if (calendar[i].lab.file2) {
+            	document.write("<br>");
+            	document.write(getFileString(calendar[i].lab.file2));
+            }
+            if (calendar[i].lab.file3) {
+            	document.write("<br>");
+             	document.write(getFileString(calendar[i].lab.file3));
+           	}
+           	
+            document.write("</td>");
         }
         document.write("</tr>");
     }
