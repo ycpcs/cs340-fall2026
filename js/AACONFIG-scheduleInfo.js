@@ -121,9 +121,6 @@ courseInfo.classPeriods = [
 		topic: new Topic("Lecture 25: Agents in Clojure", "lectures/lecture25.html"),
 		lab: new Lab("No lab", "")
 	},
-	{
-		topic: new Topic("** Exam 3", "")
-	},
 ];
 
 // The following is for the college-scheduled final exam.
