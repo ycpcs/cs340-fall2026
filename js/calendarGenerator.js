@@ -141,7 +141,7 @@ function getTopicString(topic) {
     } else if (topic instanceof VacationDays) {
         str = "<strong>NO CLASS - " + topic.description + "</strong>";
     } else if (topic instanceof FinalExamDay) {
-        str = "<strong>OPTIONAL FINAL EXAM for Section " + topic.section + " @ " + getStandardTimeString(topic.date) + "</strong>";
+        str = "<strong>FINAL EXAM for Section " + topic.section + " @ " + getStandardTimeString(topic.date) + "</strong>";
     }
     return str;
 }
