@@ -129,7 +129,7 @@ courseInfo.classPeriods = [
 // The following is for the college-scheduled final exam.
 // It is not used if final is on last day of class
 courseInfo.finalExamDates = [
-		new FinalExamDay("101", new Date("12/07/2026 08:00:00")),
+		new FinalExamDay("101 (08:00 am)", new Date("12/10/2024 08:00:00"))
 ];
 
 // vim:ts=2:
