@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 19: Clojure macros"
+title: "Lecture 17: Clojure macros"
 ---
 
 # Code = data
