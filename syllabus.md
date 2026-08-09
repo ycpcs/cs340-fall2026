@@ -10,10 +10,11 @@ CS 340 - Programming Language Design
 
 Instructor: 
 - Dr. Dian Chen, <dchen3@ycp.edu>, Office KEC 110
+- Office hours: KEC 110 - Tue/Thu 9:30 – 10:15 or by appointment
 
-> Section | Days | Classroom | Office hours
-> ---------- | ---------- | ------------ | ------------
-> 101 (8:00 AM - 9:15 AM) | Tue/Thu | KEC 119 | M X, T X,..., or by appointment
+> Section | Days | Classroom 
+> ---------- | ---------- | ------------ 
+> 101 (8:00 AM - 9:15 AM) | Tue/Thu | KEC 119 
 
 
 Course Description
