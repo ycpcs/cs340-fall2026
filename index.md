@@ -9,6 +9,8 @@ title: "Home page"
 
 This is the website for CS 340, Fall 2026 at York College.  All information about the course will be posted here.
 
+**Use the course website for all activities. Canvas is only for announcements and assignment deadlines, so you don’t miss important dates.**
+
 ## Links
 
 * [Syllabus](syllabus.html)
