@@ -3,8 +3,6 @@ layout: default
 title: "Lecture 1: Syntax, Regular Languages and Regular Expressions"
 ---
 
-**The slides used in today's lecture will be posted here after class: [slides](slides/L1.pdf)**
-
 Syntax
 ======
 
