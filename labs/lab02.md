@@ -42,7 +42,7 @@ Example strings which are in the language:
 Example strings which are not in the language:
 
     aa
-    aabaa
+    aabaab
     baaa
     aaab
     aba
