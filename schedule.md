@@ -11,7 +11,7 @@ This page lists the schedule for the course.  Note that there may be minor chang
 
 <script>
 	console.log("Generating calendar!");
-	autogenCalendar({ omitLabs: true, omitFinalExams: false });
+	autogenCalendar({ omitLabs: false, omitFinalExams: false });
 	console.log("Done generating calendar!");
 </script>
 
