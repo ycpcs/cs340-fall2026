@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 4: Calculator Language Interpreter"
 ---
 
-**Due**: <strike>Friday, Oct 12th</strike> Wednesday, Oct 17th by 11:59 PM
+**Due**: Wednesday, Oct 14th by 11:59 PM
 
 Getting Started
 ===============
