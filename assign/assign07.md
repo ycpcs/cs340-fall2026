@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 7: Code Generation"
 ---
 
-**Due**: Tuesday, Dec 11th by 11:59 PM
+**Due**: Tuesday, Dec 8th by 11:59 PM
 
 # Getting Started
 
