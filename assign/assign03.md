@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 3: JSON Parser"
 ---
 
-**Due**: Tuesday, Sept 25th by 11:59 PM
+**Due**: Tuesday, Sept 22th by 11:59 PM
 
 Getting Started
 ===============
