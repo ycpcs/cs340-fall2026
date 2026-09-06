@@ -244,7 +244,7 @@ To use a recursive descent parser to parse an entire input string, simply call t
 Complete Example
 ----------------
 
-If you download [the example](recursiveDescent.zip) and unzip it, you can run the **Parser.rb** program, which will read an infix expression from the standard input. (To tell the parser that you are done typing the expression, type control-D at the beginning of a blank line.)
+If you download [the example](precedenceClimbing-updated.zip) and unzip it, you can run the **Parser.rb** program, which will read an infix expression from the standard input. (To tell the parser that you are done typing the expression, type control-D at the beginning of a blank line.)
 
 For example, if you type the input
 
