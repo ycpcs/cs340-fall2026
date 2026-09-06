@@ -5,7 +5,7 @@ title: "Lab 5: Recursive Descent Parsing"
 
 # Getting Started
 
-Download [RecursiveDescentJava.zip](../lectures/RecursiveDescentJava.zip).  Import it into your Eclipse workspace.
+Download [RecursiveDescentJava.zip](RecursiveDescentJava.zip).  Import it into your Eclipse workspace.
 
 # Your task
 
