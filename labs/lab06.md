@@ -32,7 +32,6 @@ Example outputs:
 
 <img style="margin-left: 20px; width: 20em;" src="img/lab06a.png" onerror="this.src='img/lab06a.png'">
 
-Your output should look like:
 
 <img style="margin-left: 20px; width: 20em;" src="img/lab06b.png" onerror="this.src='img/lab06b.png'">
 
