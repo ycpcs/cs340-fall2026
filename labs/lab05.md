@@ -29,6 +29,9 @@ Try running the program and entering the expression
 
 > (a + b) * 3
 
+Your output should look like:
+<img style="margin-left: 40px; width: 40em;" src="img/lab05.png" onerror="this.src='img/lab05.png'">
+
 <!--
 ## Solution
 
