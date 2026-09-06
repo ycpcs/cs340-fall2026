@@ -28,6 +28,14 @@ You will need to modify the lexer so that it supports the exponentiation operato
 
 You will also need to modify the **parsePrimary** method in the parser class so that it applies the **F &rarr; ( E )** production when appropriate.
 
+Example outputs:
+
+<img style="margin-left: 20px; width: 20em;" src="img/lab06a.png" onerror="this.src='img/lab06a.png'">
+
+Your output should look like:
+
+<img style="margin-left: 20px; width: 20em;" src="img/lab06b.png" onerror="this.src='img/lab06b.png'">
+
 <!--
 ## Solution
 
