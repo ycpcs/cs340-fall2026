@@ -200,7 +200,7 @@ Your parser will be graded according the following criteria:
 
 When you are done, submit the assignment to the Marmoset server using one of the methods below.
 
-## From Eclipse
+## From Eclipse or IntelliJ
 
 If you have the [Simple Marmoset Uploader Plugin](../resources/index.html) installed, select the project (**CS340\_Assign03**) in the package explorer and then press the blue up arrow button in the toolbar. Enter your Marmoset username and password when prompted.
 
