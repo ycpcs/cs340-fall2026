@@ -23,6 +23,9 @@ This is the website for CS 340, Fall 2026 at York College.  All information abou
 ## News
 
 * **Aug 25** &mdash; Welcome back!
+* **Sep 18** The practice exam and solutions for Exam 1 have been posted.
+* **Sep 24** Exam 1 will be held in class. The practice exam and solutions have been posted.
+
 
 <!--
 * **Dec 11** &mdash; If you have completed the extra credit option for [Assignment 7](assign/assign07.html) and you would like receive credit for it, send me an email today stating that (1) you did not discuss the extra credit with anyone, and (2) you did not give or receive any help concerning the extra credit.
