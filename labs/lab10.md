@@ -10,16 +10,16 @@ Please create an account using the "Register" link.
 Here are a few beginning problems you can try:
 
 * [Intro to Strings](https://4clojure.oxal.org/#/problem/3)
-* [Intro to Lists](http://www.4clojure.com/problem/4)
-* [Lists: conj](http://www.4clojure.com/problem/5)
-* [Intro to Vectors](http://www.4clojure.com/problem/6)
-* [Vectors: conj](http://www.4clojure.com/problem/7)
-* [Intro to Sets](http://www.4clojure.com/problem/8)
-* [Intro to Maps](http://www.4clojure.com/problem/10)
-* [Maps: conj](http://www.4clojure.com/problem/11)
-* [Intro to Sequences](http://www.4clojure.com/problem/12)
-* [Sequences: rest](http://www.4clojure.com/problem/13)
-* [Intro to Functions](http://www.4clojure.com/problem/14)
-* [Double Down](http://www.4clojure.com/problem/15)
+* [Intro to Lists](https://4clojure.oxal.org/#/problem/4)
+* [Lists: conj](https://4clojure.oxal.org/#/problem/5)
+* [Intro to Vectors](https://4clojure.oxal.org/#/problem/6)
+* [Vectors: conj](https://4clojure.oxal.org/#/problem/7)
+* [Intro to Sets](https://4clojure.oxal.org/#/problem/8)
+* [Intro to Maps](https://4clojure.oxal.org/#/problem/10)
+* [Maps: conj](https://4clojure.oxal.org/#/problem/11)
+* [Intro to Sequences](https://4clojure.oxal.org/#/problem/12)
+* [Sequences: rest](https://4clojure.oxal.org/#/problem/13)
+* [Intro to Functions](https://4clojure.oxal.org/#/problem/14)
+* [Double Down](https://4clojure.oxal.org/#/problem/15)
 
 To get credit for this lab, show me your solutions to at least 8 of the problems.
