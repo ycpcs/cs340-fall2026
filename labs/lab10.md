@@ -3,13 +3,13 @@ layout: default
 title: "Lab 10: Clojure Warm-up"
 ---
 
-[4clojure](http://www.4clojure.com) is a website with lots of online practice problems for learning Clojure.
+[4clojure](https://4clojure.oxal.org/) is a website with lots of online practice problems for learning Clojure.
 
 Please create an account using the "Register" link.
 
 Here are a few beginning problems you can try:
 
-* [Intro to Strings](http://www.4clojure.com/problem/3)
+* [Intro to Strings](https://4clojure.oxal.org/#/problem/3)
 * [Intro to Lists](http://www.4clojure.com/problem/4)
 * [Lists: conj](http://www.4clojure.com/problem/5)
 * [Intro to Vectors](http://www.4clojure.com/problem/6)
