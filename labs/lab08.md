@@ -7,7 +7,7 @@ title: "Lab 8: Calculator implementation"
 
 Note that you do not need to get a sign-off on this lab.
 
-Start working on [Assignment 4](assign/assign04.html).
+Start working on [Assignment 4](../assign/assign04.html).
 
 Add support for evaluating
 
