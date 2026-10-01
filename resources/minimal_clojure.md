@@ -106,3 +106,9 @@ cd $HOME
 cd git/structured-data
 lein midje
 ```
+
+A useful command:
+
+```
+/Users/XX/bin/lein upgrade
+```
