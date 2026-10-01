@@ -45,7 +45,7 @@ See the [Minimal clojure environment](minimal_clojure.html) page for instruction
 
 # Clojure resources
 
-* [ClojureDocs.org](http://www.clojuredocs.org/) has documentation and examples for the built-in Clojure functions
+* [ClojureDocs.org](https://clojure-doc.org/) has documentation and examples for the built-in Clojure functions
 
 # SimpleMarmosetUploader plugin
 
