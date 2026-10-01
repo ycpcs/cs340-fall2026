@@ -107,8 +107,10 @@ cd git/structured-data
 lein midje
 ```
 
-A useful command:
+Some useful commands/links:
 
 ```
 /Users/XX/bin/lein upgrade
+/usr/libexec/java_home -V
+https://www.azul.com/downloads/?version=java-8-lts&os=macos&architecture=arm-64-bit&package=jdk#zulu
 ```
