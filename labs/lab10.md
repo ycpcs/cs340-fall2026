@@ -5,8 +5,6 @@ title: "Lab 10: Clojure Warm-up"
 
 [4clojure](https://4clojure.oxal.org/) is a website with lots of online practice problems for learning Clojure.
 
-Please create an account using the "Register" link.
-
 Here are a few beginning problems you can try:
 
 * [Intro to Strings](https://4clojure.oxal.org/#/problem/3)
