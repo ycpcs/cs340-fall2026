@@ -64,7 +64,7 @@ Here's how to do it!  Well, sort of.
 
 The built-in `map` function applies a one-parameter function to each item in a sequence, returning a sequence with the results of each application.  (Note that there are more complicated ways to use `map`, but we won't get into that right now.)  We have a bit of a problem, though: `tally-item` expects two parameters, a prices map and a line item vector.
 
-Not to worry: we can create an *anonymous* function that takes a single parameter (a line item vector) and applies `tally-item` to it, passing whichever prices map we want to use.  (You encountered anonymous functions in the [Intro to Functions](https://www.4clojure.com/problem/14) problem on [4clojure](https://www.4clojure.com/).)
+Not to worry: we can create an *anonymous* function that takes a single parameter (a line item vector) and applies `tally-item` to it, passing whichever prices map we want to use.  (You encountered anonymous functions in the [Intro to Functions](https://4clojure.oxal.org/#/problem/14) problem on [4clojure](https://4clojure.oxal.org/).)
 
 Try this (which assumes you've evaluated the `yummy-fruit` invoice shown above):
 
