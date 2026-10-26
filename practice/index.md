@@ -11,7 +11,7 @@ This page links to practice exams and practice problems.
 
 > [Solution](cs340-fall2016-exam01-solution.pdf), [JFLAP for Question 9](ex1-q9.jff)
 
-[Exam 2, Fall 2016](cs340-fall2016-exam02.pdf), [Exam 2, Fall 2016, zip](cs340-fall2016-exam02.zip)
+[Exam 2, Fall 2016 (handout)](cs340-fall2016-exam02.pdf), [Exam 2, Fall 2016 (zipfile)](cs340-fall2016-exam02.zip)
 
 > [Solution](cs340-fall2016-exam02-solution.zip)
 
