@@ -25,6 +25,7 @@ This is the website for CS 340, Fall 2026 at York College.  All information abou
 * **Aug 25** &mdash; Welcome back!
 * **Sep 18** &mdash; The practice exam and solutions for Exam 1 have been posted.
 * **Sep 24** &mdash; Exam 1 will be held in class. The practice exam and solutions have been posted.
+* **Nov 5** &mdash; Exam 2 will be held in class. The practice exam and solutions have been posted.
 
 
 <!--
