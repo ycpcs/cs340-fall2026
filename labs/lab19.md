@@ -31,6 +31,18 @@ You can execute it noninteractively with the command
 
 Interactive execution is useful for understanding the exact behavior of the program.  Noninteractive execution is useful if you want to test the program for larger values of *N* (where tracing the entire execution of the program would be tedious.)
 
+### Troubleshooting: Permission Denied
+
+If you encounter a `Permission denied` error when running `./MiniVM.rb`, check whether Ruby is installed:
+
+```bash
+ruby --version
+```
+
+If Ruby is installed, replace `./MiniVM.rb` with `ruby MiniVM.rb`, keeping the original arguments unchanged.
+
+If Ruby is not installed, follow the terminal's instructions to install it, then rerun the command using `ruby MiniVM.rb [with original arguments]`.
+
 ## If you have time
 
 Try modifying the program to use a procedure to compute the sum of 1..N.
