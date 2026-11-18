@@ -3,6 +3,7 @@ layout: default
 title: "Lecture 21: Erlang"
 ---
 
+You can download and install the Erlang interpreter from: [Erlang](https://www.erlang.org/downloads) 
 Example source code: [series.erl](series.erl), [sort.erl](../labs/sort.erl)
 
 Erlang
