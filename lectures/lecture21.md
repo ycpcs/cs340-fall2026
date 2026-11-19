@@ -51,7 +51,7 @@ For example:
 { lineitem, {item, "Bananas"}, {quantity, 44} }
 {% endhighlight %}
 
-This is a tuple marked with the symbol (tag) **bananas**, with two nested tuples marked with the symbols **item** and **quantity**. This tuple might be part of a data structure used in an inventory-tracking system.
+This is a tuple marked with the symbol (tag) **lineitem**, with two nested tuples marked with the symbols **item** and **quantity**. This tuple might be part of a data structure used in an inventory-tracking system.
 
 We could assign this tuple to a variable:
 
