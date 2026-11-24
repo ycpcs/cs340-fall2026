@@ -114,11 +114,7 @@ courseInfo.classPeriods = [
 		lab: new Lab("No lab", "")
 	},
 	{
-		topic: new Topic("Lecture 24: Concurrency in Clojure", "lectures/lecture24.html"),
-		lab: new Lab("No lab", "")
-	},
-	{
-		topic: new Topic("Lecture 25: Agents in Clojure", "lectures/lecture25.html"),
+		topic: new DoubleTopic("Lecture 24: Concurrency in Clojure", "lectures/lecture24.html", "Lecture 25: Agents in Clojure", "lectures/lecture25.html"),
 		lab: new Lab("No lab", "")
 	},
 	{
